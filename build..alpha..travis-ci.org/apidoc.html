@@ -61,12 +61,70 @@
 
     <li class="apidocModuleLi"><a href="#apidoc.module.gulp-plato">module gulp-plato</a><ol>
 
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.gulp-plato.gulp-plato">
+            function <span class="apidocSignatureSpan"></span>gulp-plato
+            <span class="apidocSignatureSpan">(destDir, options)</span>
+            </a>
+
+        </li>
+
     </ol></li>
 
 </ol></div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.gulp-plato" id="apidoc.module.gulp-plato">module gulp-plato</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.gulp-plato.gulp-plato" id="apidoc.element.gulp-plato.gulp-plato">
+        function <span class="apidocSignatureSpan"></span>gulp-plato
+        <span class="apidocSignatureSpan">(destDir, options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">gulp-plato = function (destDir, options) {
+	if (!destDir) {
+		throw new gutil.PluginError(&#x27;gulp-plato&#x27;, &#x27;`destDir` required&#x27;);
+	}
+
+	var paths = [];
+
+	options = options || {};
+	options.jshint = options.jshint || {};
+	options.complexity = options.complexity || {};
+	options.complexity.newmi = true;
+
+	return through.obj(function (file, enc, cb) {
+		if (file.isNull()) {
+			cb(null, file);
+			return;
+		}
+
+		if (file.isStream()) {
+			cb(new gutil.PluginError(&#x27;gulp-plato&#x27;, &#x27;Streaming not supported&#x27;));
+			return;
+		}
+
+		paths.push(file.path);
+		cb(null, file);
+	}, function (cb) {
+		if (paths.length === 0) {
+			cb();
+			return;
+		}
+
+		plato.inspect(paths, destDir, options, function () {
+			gutil.log(&#x27;gulp-plato: Report generated in &#x27; + gutil.colors.blue(destDir) + &#x27;.&#x27;);
+			cb();
+		});
+	});
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
 
 </div>
 
