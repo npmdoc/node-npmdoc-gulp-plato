@@ -1,9 +1,14 @@
-# api documentation for  [gulp-plato (v1.0.2)](https://github.com/sindresorhus/gulp-plato)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-plato.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-plato) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-plato.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-plato)
+# npmdoc-gulp-plato
+
+#### api documentation for  [gulp-plato (v1.0.2)](https://github.com/sindresorhus/gulp-plato)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-plato.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-plato) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-plato.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-plato)
+
 #### Generate complexity analysis reports
 
-[![NPM](https://nodei.co/npm/gulp-plato.png?downloads=true)](https://www.npmjs.com/package/gulp-plato)
+[![NPM](https://nodei.co/npm/gulp-plato.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/gulp-plato)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-plato/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-gulp-plato_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-plato/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-gulp-plato/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-gulp-plato/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-plato/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-plato/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-gulp-plato/build/screenCapture.npmPackageListing.svg)
 
@@ -18,7 +23,6 @@
 {
     "author": {
         "name": "Sindre Sorhus",
-        "email": "sindresorhus@gmail.com",
         "url": "http://sindresorhus.com"
     },
     "bugs": {
@@ -64,17 +68,14 @@
     "license": "MIT",
     "maintainers": [
         {
-            "name": "sindresorhus",
-            "email": "sindresorhus@gmail.com"
+            "name": "sindresorhus"
         },
         {
-            "name": "jsoverson",
-            "email": "jsoverson@gmail.com"
+            "name": "jsoverson"
         }
     ],
     "name": "gulp-plato",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/sindresorhus/gulp-plato.git"
@@ -85,16 +86,6 @@
     "version": "1.0.2"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module gulp-plato](#apidoc.module.gulp-plato)
-
-
-
-# <a name="apidoc.module.gulp-plato"></a>[module gulp-plato](#apidoc.module.gulp-plato)
 
 
 
