@@ -62,8 +62,8 @@
 <tspan x="10" y="954">  │ │ │ │ ├── isarray@1.0.0 </tspan>
 <tspan x="10" y="970">  │ │ │ │ └── string_decoder@1.0.0 </tspan>
 <tspan x="10" y="986">  │ │ │ └── typedarray@0.0.6 </tspan>
-<tspan x="10" y="1002">  │ │ ├─┬ debug@2.6.3 </tspan>
-<tspan x="10" y="1018">  │ │ │ └── ms@0.7.2 </tspan>
+<tspan x="10" y="1002">  │ │ ├─┬ debug@2.6.4 </tspan>
+<tspan x="10" y="1018">  │ │ │ └── ms@0.7.3 </tspan>
 <tspan x="10" y="1034">  │ │ ├─┬ doctrine@1.5.0 </tspan>
 <tspan x="10" y="1050">  │ │ │ └── isarray@1.0.0 </tspan>
 <tspan x="10" y="1066">  │ │ ├─┬ es6-map@0.1.5 </tspan>
@@ -78,7 +78,7 @@
 <tspan x="10" y="1210">  │ │ │ └─┬ esrecurse@4.1.0 </tspan>
 <tspan x="10" y="1226">  │ │ │   ├── estraverse@4.1.1 </tspan>
 <tspan x="10" y="1242">  │ │ │   └── object-assign@4.1.1 </tspan>
-<tspan x="10" y="1258">  │ │ ├─┬ espree@3.4.1 </tspan>
+<tspan x="10" y="1258">  │ │ ├─┬ espree@3.4.2 </tspan>
 <tspan x="10" y="1274">  │ │ │ ├── acorn@5.0.3 </tspan>
 <tspan x="10" y="1290">  │ │ │ └─┬ acorn-jsx@3.0.1 </tspan>
 <tspan x="10" y="1306">  │ │ │   └── acorn@3.3.0 </tspan>
@@ -199,7 +199,7 @@
 <tspan x="10" y="3146">  │ ├── lodash@4.13.1 </tspan>
 <tspan x="10" y="3162">  │ ├── posix-getopt@1.2.0 </tspan>
 <tspan x="10" y="3178">  │ └─┬ typhonjs-escomplex@0.0.9 </tspan>
-<tspan x="10" y="3194">  │   ├── babylon@6.16.1 </tspan>
+<tspan x="10" y="3194">  │   ├── babylon@6.17.0 </tspan>
 <tspan x="10" y="3210">  │   ├─┬ commander@2.9.0 </tspan>
 <tspan x="10" y="3226">  │   │ └── graceful-readlink@1.0.1 </tspan>
 <tspan x="10" y="3242">  │   ├─┬ typhonjs-escomplex-module@0.0.9 </tspan>
