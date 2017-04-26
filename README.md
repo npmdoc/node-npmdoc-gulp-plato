@@ -1,6 +1,6 @@
 # npmdoc-gulp-plato
 
-#### api documentation for  [gulp-plato (v1.0.2)](https://github.com/sindresorhus/gulp-plato)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-plato.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-plato) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-plato.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-plato)
+#### basic api documentation for  [gulp-plato (v1.0.2)](https://github.com/sindresorhus/gulp-plato)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-plato.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-plato) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-plato.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-plato)
 
 #### Generate complexity analysis reports
 
@@ -83,7 +83,8 @@
     "scripts": {
         "test": "mocha"
     },
-    "version": "1.0.2"
+    "version": "1.0.2",
+    "bin": {}
 }
 ```
 
